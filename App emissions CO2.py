@@ -25,7 +25,7 @@ import plotly.express as px
 
 # GHG emissions file reading
 df_emissions = pd.read_csv(
-    ('/historical_emissions_climatewatchdata_tidy.csv'),
+    ('historical_emissions_climatewatchdata_tidy.csv'),
     # index_col=[0],
     encoding='utf-8',
     sep=';'
