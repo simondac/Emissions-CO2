@@ -21,15 +21,11 @@ import pyproj
 import plotly.express as px
 
 
-# Path
-home_path = 'D:\\OneDrive\\Data Science\\Data\\CO2\\'
-
-
 # Files reading
 
 # GHG emissions file reading
 df_emissions = pd.read_csv(
-    (home_path + 'historical_emissions_climatewatchdata_tidy.csv'),
+    ('/historical_emissions_climatewatchdata_tidy.csv'),
     # index_col=[0],
     encoding='utf-8',
     sep=';'
