@@ -5,3 +5,4 @@ bokeh==2.4.1
 geopandas
 pyproj
 plotly
+os
