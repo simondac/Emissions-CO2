@@ -6,6 +6,8 @@
 # Replace source file by emissions per capita data to avoid merging population and emissions
 # Add evolution of energy mix per country and compare it with emissions
 # Add emissions up to 2020
+# Alphabeticaly sort country list
+
 
 
 from matplotlib.pyplot import legend
